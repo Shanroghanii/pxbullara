@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\projects\\pxbull\\ar_live_ais\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\ZEESHAN KHAN\\OneDrive\\Documents\\GitHub\\pxbullara\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\ef28e20c6c0b33301d2d967eb1bb88db\\appcompat-1.1.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\ZEESHAN KHAN\\.gradle\\caches\\transforms-2\\files-2.1\\ef28e20c6c0b33301d2d967eb1bb88db\\appcompat-1.1.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

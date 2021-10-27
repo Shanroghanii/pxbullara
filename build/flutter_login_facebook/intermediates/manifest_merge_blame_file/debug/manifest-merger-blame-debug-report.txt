@@ -3,6 +3,6 @@
 3    package="ru.innim.flutter_login_facebook" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->C:\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_login_facebook-1.1.0\android\src\main\AndroidManifest.xml
+5-->C:\flutter_windows_2.0.6-stable\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_login_facebook-1.1.0\android\src\main\AndroidManifest.xml
 6
 7</manifest>

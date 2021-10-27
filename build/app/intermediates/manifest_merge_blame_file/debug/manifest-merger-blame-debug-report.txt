@@ -12,45 +12,45 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:5:5-66
-14-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:5:22-64
+14-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:5:5-66
+14-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:5:22-64
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:3:5-79
-15-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:3:22-77
+15-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:3:5-79
+15-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:3:22-77
 16    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
-16-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:4:5-79
-16-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:4:22-77
+16-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:4:5-79
+16-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:4:22-77
 17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-17-->[com.android.installreferrer:installreferrer:1.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\bee6c20c5585020b4ccaa42085e57497\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
-17-->[com.android.installreferrer:installreferrer:1.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\bee6c20c5585020b4ccaa42085e57497\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+17-->[com.android.installreferrer:installreferrer:1.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\b1a60618938623d20169dff9c9f6541a\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+17-->[com.android.installreferrer:installreferrer:1.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\b1a60618938623d20169dff9c9f6541a\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 18
 19    <application
-19-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:8:5-66:19
+19-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:8:5-66:19
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.3.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\0216014aa3f514e0efb1ca916a1074c0\core-1.3.2\AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.3.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\0216014aa3f514e0efb1ca916a1074c0\core-1.3.2\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:11:9-43
+22-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:11:9-43
 23        android:label="AR LIVE_AIS"
-23-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:10:9-36
+23-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:10:9-36
 24        android:requestLegacyExternalStorage="true"
-24-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:9:9-52
+24-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:9:9-52
 25        android:supportsRtl="true" >
-25-->[com.facebook.android:facebook-login:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\abefd4fbfef4602e86b4846ef4f543ef\jetified-facebook-login-11.2.0\AndroidManifest.xml:28:18-44
+25-->[com.facebook.android:facebook-login:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\abefd4fbfef4602e86b4846ef4f543ef\jetified-facebook-login-11.2.0\AndroidManifest.xml:28:18-44
 26        <activity
-26-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:12:9-40:20
+26-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:12:9-40:20
 27            android:name="com.hollysoft.ar_live_ais.MainActivity"
-27-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:13:13-41
+27-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:13:13-41
 28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-28-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:16:13-163
+28-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:16:13-163
 29            android:hardwareAccelerated="true"
-29-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:17:13-47
+29-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:17:13-47
 30            android:launchMode="singleTop"
-30-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:14:13-43
+30-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:14:13-43
 31            android:theme="@style/LaunchTheme"
-31-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:15:13-47
+31-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:15:13-47
 32            android:windowSoftInputMode="adjustResize" >
-32-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:18:13-55
+32-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:18:13-55
 33
 34            <!--
 35                 Specifies an Android theme to apply to this Activity as soon as
@@ -59,11 +59,11 @@
 38                 to determine the Window background behind the Flutter UI.
 39            -->
 40            <meta-data
-40-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:23:13-26:17
+40-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:23:13-26:17
 41                android:name="io.flutter.embedding.android.NormalTheme"
-41-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:24:15-70
+41-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:24:15-70
 42                android:resource="@style/NormalTheme" />
-42-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:25:15-52
+42-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:25:15-52
 43            <!--
 44                 Displays an Android View that continues showing the launch screen
 45                 Drawable until Flutter paints its first frame, then this splash
@@ -72,82 +72,82 @@
 48                 Flutter's first frame.
 49            -->
 50            <meta-data
-50-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:32:13-35:17
+50-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:32:13-35:17
 51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-51-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:33:15-79
+51-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:33:15-79
 52                android:resource="@drawable/launch_background" />
-52-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:34:15-61
+52-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:34:15-61
 53
 54            <intent-filter>
-54-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:36:13-39:29
+54-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:36:13-39:29
 55                <action android:name="android.intent.action.MAIN" />
-55-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:37:17-68
-55-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:37:25-66
+55-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:37:17-68
+55-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:37:25-66
 56
 57                <category android:name="android.intent.category.LAUNCHER" />
-57-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:38:17-76
-57-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:38:27-74
+57-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:38:17-76
+57-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:38:27-74
 58            </intent-filter>
 59        </activity>
 60
 61        <meta-data
-61-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:42:9-43:46
+61-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:42:9-43:46
 62            android:name="com.facebook.sdk.ApplicationId"
-62-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:42:20-65
+62-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:42:20-65
 63            android:value="533056607990524" />
-63-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:43:13-44
+63-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:43:13-44
 64
 65        <activity
-65-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:45:9-48:57
+65-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:45:9-48:57
 66            android:name="com.facebook.FacebookActivity"
-66-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:45:19-63
+66-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:45:19-63
 67            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-67-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:46:13-113
+67-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:46:13-114
 68            android:label="com.hollysoft.ar_live_ais"
-68-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:48:13-54
+68-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:48:13-54
 69            android:theme="@style/com_facebook_activity_theme" />
-69-->[com.facebook.android:facebook-common:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:33:13-63
+69-->[com.facebook.android:facebook-common:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:33:13-63
 70        <activity
-70-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:50:9-59:20
+70-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:50:9-59:20
 71            android:name="com.facebook.CustomTabActivity"
-71-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:51:13-58
+71-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:51:13-58
 72            android:exported="true" >
-72-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:52:13-36
+72-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:52:13-36
 73            <intent-filter>
-73-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:53:13-58:29
+73-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:53:13-58:29
 74                <action android:name="android.intent.action.VIEW" />
-74-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:54:17-69
-74-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:54:25-66
+74-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:54:17-69
+74-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:54:25-66
 75
 76                <category android:name="android.intent.category.DEFAULT" />
-76-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:55:17-76
-76-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:55:27-73
+76-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:55:17-76
+76-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:55:27-73
 77                <category android:name="android.intent.category.BROWSABLE" />
-77-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:56:17-78
-77-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:56:27-75
+77-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:56:17-78
+77-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:56:27-75
 78
 79                <data android:scheme="fb533056607990524" />
-79-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:57:17-60
-79-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:57:23-57
+79-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:57:17-60
+79-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:57:23-57
 80            </intent-filter>
 81            <intent-filter>
-81-->[com.facebook.android:facebook-common:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:39:13-48:29
+81-->[com.facebook.android:facebook-common:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:39:13-48:29
 82                <action android:name="android.intent.action.VIEW" />
-82-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:54:17-69
-82-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:54:25-66
+82-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:54:17-69
+82-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:54:25-66
 83
 84                <category android:name="android.intent.category.DEFAULT" />
-84-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:55:17-76
-84-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:55:27-73
+84-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:55:17-76
+84-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:55:27-73
 85                <category android:name="android.intent.category.BROWSABLE" />
-85-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:56:17-78
-85-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:56:27-75
+85-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:56:17-78
+85-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:56:27-75
 86
 87                <data
-87-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:57:17-60
+87-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:57:17-60
 88                    android:host="cct.com.hollysoft.ar_live_ais"
 89                    android:scheme="fbconnect" />
-89-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:57:23-57
+89-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:57:23-57
 90            </intent-filter>
 91        </activity>
 92
@@ -156,110 +156,111 @@
 95             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 96        -->
 97        <meta-data
-97-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:63:9-65:33
+97-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:63:9-65:33
 98            android:name="flutterEmbedding"
-98-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:64:13-44
+98-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:64:13-44
 99            android:value="2" />
-99-->D:\projects\pxbull\ar_live_ais\android\app\src\main\AndroidManifest.xml:65:13-30
+99-->C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\android\app\src\main\AndroidManifest.xml:65:13-30
 100
-101        <activity
-101-->[:url_launcher] D:\projects\pxbull\ar_live_ais\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
-102            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-102-->[:url_launcher] D:\projects\pxbull\ar_live_ais\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
-103            android:exported="false"
-103-->[:url_launcher] D:\projects\pxbull\ar_live_ais\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
-104            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-104-->[:url_launcher] D:\projects\pxbull\ar_live_ais\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
-105
-106        <provider
-106-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
-107            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-107-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
-108            android:authorities="com.hollysoft.ar_live_ais.flutter.image_provider"
-108-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
-109            android:exported="false"
-109-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
-110            android:grantUriPermissions="true" >
-110-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
-111            <meta-data
-111-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
-112                android:name="android.support.FILE_PROVIDER_PATHS"
-112-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
-113                android:resource="@xml/flutter_image_picker_file_paths" />
-113-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
-114        </provider>
-115        <provider
-115-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:12:9-20:20
-116            android:name="com.sangcomz.fishbun.FishBunFileProvider"
-116-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:13:13-68
-117            android:authorities="com.hollysoft.ar_live_ais.fishbunfileprovider"
-117-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:14:13-71
-118            android:exported="false"
-118-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:15:13-37
-119            android:grantUriPermissions="true" >
-119-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:16:13-47
-120            <meta-data
-120-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
-121                android:name="android.support.FILE_PROVIDER_PATHS"
-121-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
-122                android:resource="@xml/provider_paths" />
-122-->[:image_picker] D:\projects\pxbull\ar_live_ais\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
-123        </provider>
-124
-125        <activity
-125-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:22:9-25:51
-126            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
-126-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:23:13-71
-127            android:label="@string/album"
-127-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:24:13-42
-128            android:theme="@style/FishBunTheme" />
-128-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:25:13-48
-129        <activity
-129-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:26:9-28:51
-130            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
-130-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:27:13-73
-131            android:theme="@style/FishBunTheme" />
-131-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:28:13-48
-132        <activity
-132-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:29:9-31:54
-133            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
-133-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:30:13-73
-134            android:theme="@style/DetailViewTheme" />
-134-->[com.sangcomz:FishBun:0.11.2] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:31:13-51
-135        <activity android:name="com.facebook.CustomTabMainActivity" />
-135-->[com.facebook.android:facebook-common:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:34:9-71
-135-->[com.facebook.android:facebook-common:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:34:19-68
-136        <!--
-137         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-138         with the application context. This config is merged in with the host app's manifest,
-139         but there can only be one provider with the same authority activated at any given
-140         point; so if the end user has two or more different apps that use Facebook SDK, only the
-141         first one will be able to use the provider. To work around this problem, we use the
-142         following placeholder in the authority to identify each host application as if it was
-143         a completely different provider.
-144        -->
-145        <provider
-145-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:39:9-42:40
-146            android:name="com.facebook.internal.FacebookInitProvider"
-146-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:40:13-70
-147            android:authorities="com.hollysoft.ar_live_ais.FacebookInitProvider"
-147-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:41:13-72
-148            android:exported="false" />
-148-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:42:13-37
-149
-150        <receiver
-150-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:44:9-50:20
-151            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-151-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:45:13-86
-152            android:exported="false" >
-152-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:46:13-37
-153            <intent-filter>
-153-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:47:13-49:29
-154                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-154-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:48:17-95
-154-->[com.facebook.android:facebook-core:11.2.0] C:\Users\MAK7495\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:48:25-92
-155            </intent-filter>
-156        </receiver>
-157    </application>
-158
-159</manifest>
+101        <provider
+101-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+102            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+102-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+103            android:authorities="com.hollysoft.ar_live_ais.flutter.image_provider"
+103-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+104            android:exported="false"
+104-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+105            android:grantUriPermissions="true" >
+105-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+106            <meta-data
+106-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+108                android:resource="@xml/flutter_image_picker_file_paths" />
+108-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+109        </provider>
+110
+111        <activity
+111-->[:url_launcher] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+112            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+112-->[:url_launcher] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+113            android:exported="false"
+113-->[:url_launcher] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+114            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+114-->[:url_launcher] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+115
+116        <provider
+116-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:12:9-20:20
+117            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+117-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:13:13-68
+118            android:authorities="com.hollysoft.ar_live_ais.fishbunfileprovider"
+118-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:14:13-71
+119            android:exported="false"
+119-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:15:13-37
+120            android:grantUriPermissions="true" >
+120-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:16:13-47
+121            <meta-data
+121-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+122                android:name="android.support.FILE_PROVIDER_PATHS"
+122-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+123                android:resource="@xml/provider_paths" />
+123-->[:image_picker] C:\Users\ZEESHAN KHAN\OneDrive\Documents\GitHub\pxbullara\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+124        </provider>
+125
+126        <activity
+126-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:22:9-25:51
+127            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+127-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:23:13-71
+128            android:label="@string/album"
+128-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:24:13-42
+129            android:theme="@style/FishBunTheme" />
+129-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:25:13-48
+130        <activity
+130-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:26:9-28:51
+131            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+131-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:27:13-73
+132            android:theme="@style/FishBunTheme" />
+132-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:28:13-48
+133        <activity
+133-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:29:9-31:54
+134            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+134-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:30:13-73
+135            android:theme="@style/DetailViewTheme" />
+135-->[com.sangcomz:FishBun:0.11.2] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\117ca23407e937000a8e6ffbccf99569\jetified-FishBun-0.11.2\AndroidManifest.xml:31:13-51
+136        <activity android:name="com.facebook.CustomTabMainActivity" />
+136-->[com.facebook.android:facebook-common:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:34:9-71
+136-->[com.facebook.android:facebook-common:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\1b749354b0b2bf51ac35fac669b5cce8\jetified-facebook-common-11.2.0\AndroidManifest.xml:34:19-68
+137        <!--
+138         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+139         with the application context. This config is merged in with the host app's manifest,
+140         but there can only be one provider with the same authority activated at any given
+141         point; so if the end user has two or more different apps that use Facebook SDK, only the
+142         first one will be able to use the provider. To work around this problem, we use the
+143         following placeholder in the authority to identify each host application as if it was
+144         a completely different provider.
+145        -->
+146        <provider
+146-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:39:9-42:40
+147            android:name="com.facebook.internal.FacebookInitProvider"
+147-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:40:13-70
+148            android:authorities="com.hollysoft.ar_live_ais.FacebookInitProvider"
+148-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:41:13-72
+149            android:exported="false" />
+149-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:42:13-37
+150
+151        <receiver
+151-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:44:9-50:20
+152            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+152-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:45:13-86
+153            android:exported="false" >
+153-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:46:13-37
+154            <intent-filter>
+154-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:47:13-49:29
+155                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+155-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:48:17-95
+155-->[com.facebook.android:facebook-core:11.2.0] C:\Users\ZEESHAN KHAN\.gradle\caches\transforms-2\files-2.1\d9a34da5d445567836dcebdf89130112\jetified-facebook-core-11.2.0\AndroidManifest.xml:48:25-92
+156            </intent-filter>
+157        </receiver>
+158    </application>
+159
+160</manifest>

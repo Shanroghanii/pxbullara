@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\projects\\pxbull\\ar_live_ais\\build\\shared_preferences\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
+            "outputFile": "C:\\Users\\ZEESHAN KHAN\\OneDrive\\Documents\\GitHub\\pxbullara\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\values-eu\\values-eu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\ZEESHAN KHAN\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "D:\\projects\\pxbull\\ar_live_ais\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\values-eu\\values-eu.xml",
+            "outputFile": "C:\\Users\\ZEESHAN KHAN\\OneDrive\\Documents\\GitHub\\pxbullara\\build\\shared_preferences\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\ZEESHAN KHAN\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

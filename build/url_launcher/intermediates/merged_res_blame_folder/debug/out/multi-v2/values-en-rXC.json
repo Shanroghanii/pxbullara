@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\projects\\pxbull\\ar_live_ais\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "C:\\Users\\ZEESHAN KHAN\\OneDrive\\Documents\\GitHub\\pxbullara\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\ZEESHAN KHAN\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "D:\\projects\\pxbull\\ar_live_ais\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "C:\\Users\\ZEESHAN KHAN\\OneDrive\\Documents\\GitHub\\pxbullara\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\ZEESHAN KHAN\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
