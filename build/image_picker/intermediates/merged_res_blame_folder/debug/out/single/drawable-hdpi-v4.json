@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\projects\\pxbull\\ar_live_ais\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\projects\\pxbull\\ar_live_ais\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\projects\\pxbull\\ar_live_ais\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\projects\\pxbull\\ar_live_ais\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\projects\\pxbull\\ar_live_ais\\build\\image_picker\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\MAK7495\\.gradle\\caches\\transforms-2\\files-2.1\\e31073528c520db0b9ab5ae1b9a80fcf\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    }
+]

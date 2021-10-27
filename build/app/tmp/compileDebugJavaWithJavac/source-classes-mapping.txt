@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/hollysoft/ar_live_ais/BuildConfig.java
+ com.hollysoft.ar_live_ais.BuildConfig
