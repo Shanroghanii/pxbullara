@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:ar_live_ais/Pages/HomePage.dart';
 import 'package:ar_live_ais/Pages/RegisterPage.dart';
+import 'package:ar_live_ais/Pages/forgotPassward.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -38,6 +39,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final _formKey = GlobalKey<FormState>();
   String otpToken;
   String phone;
   String error;
@@ -54,6 +56,43 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  }
+
+  String validatePassword(String value) {
+    Pattern pattern = r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$';
+    RegExp regex = RegExp(pattern);
+    print(value);
+    if (value.isEmpty) {
+      return 'Please enter password';
+    } else {
+      if (!regex.hasMatch(value))
+        return 'Enter valid password';
+      else
+        return null;
+    }
+  }
+
+  String validateMobile(String value) {
+    String patttern = r'(^(?:[+]66)?[0-9]{8,10}$)';
+    RegExp regExp = new RegExp(patttern);
+    if (value.length == 0) {
+      return 'Please enter mobile number';
+    } else if (!regExp.hasMatch(value)) {
+      return 'Please enter valid mobile number';
+    }
+    return null;
+  }
+
+  String validateEmail(String value) {
+    Pattern pattern =
+        r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]"
+        r"{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]"
+        r"{0,253}[a-zA-Z0-9])?)*$";
+    RegExp regex = new RegExp(pattern);
+    if (!regex.hasMatch(value) || value == null)
+      return 'Enter a valid email address';
+    else
+      return null;
   }
 
   @override
@@ -286,25 +325,97 @@ class _MyHomePageState extends State<MyHomePage> {
               endIndent: 50,
               color: Colors.grey,
             ),
-
-            isPhone
-                ? Padding(
+            Form(
+              key: _formKey,
+              child: Column(
+                children: [
+                  isPhone
+                      ? Padding(
+                          padding: const EdgeInsets.only(
+                              top: 12.0, left: 22, right: 22),
+                          child: Container(
+                            height: h * 0.08,
+                            child: TextFormField(
+                              keyboardType: TextInputType.emailAddress,
+                              controller: phoneEditingController,
+                              style: TextStyle(color: Colors.white),
+                              decoration: InputDecoration(
+                                  fillColor: Color(0x29FFFFFF),
+                                  prefixIcon: Padding(
+                                      padding: EdgeInsets.all(15),
+                                      child: Text(
+                                        '+66',
+                                        style: TextStyle(color: Colors.white),
+                                      )),
+                                  filled: true,
+                                  border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(14.0),
+                                      borderSide: new BorderSide(
+                                          color: Color(0x29FFFFFF))),
+                                  enabledBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(14),
+                                    borderSide: BorderSide(
+                                        color: Color(0x29FFFFFF), width: 0.0),
+                                  ),
+                                  focusedBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(14),
+                                    borderSide: BorderSide(
+                                        color: Color(0x29FFFFFF), width: 0.0),
+                                  ),
+                                  labelText: 'Phone*',
+                                  labelStyle: TextStyle(color: Colors.white)),
+                              validator: validateMobile,
+                            ),
+                          ),
+                        )
+                      : Padding(
+                          padding: const EdgeInsets.only(
+                              top: 12.0, left: 22, right: 22),
+                          child: Container(
+                            height: h * 0.08,
+                            child: TextFormField(
+                              keyboardType: TextInputType.emailAddress,
+                              controller: emailEditingController,
+                              style: TextStyle(color: Colors.white),
+                              decoration: InputDecoration(
+                                  fillColor: Color(0x29FFFFFF),
+                                  filled: true,
+                                  border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(14.0),
+                                      borderSide: new BorderSide(
+                                          color: Color(0x29FFFFFF))),
+                                  enabledBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(14),
+                                    borderSide: BorderSide(
+                                        color: Color(0x29FFFFFF), width: 0.0),
+                                  ),
+                                  focusedBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(14),
+                                    borderSide: BorderSide(
+                                        color: Color(0x29FFFFFF), width: 0.0),
+                                  ),
+                                  labelText: 'Email*',
+                                  labelStyle: TextStyle(color: Colors.white)),
+                              validator: validateEmail,
+                            ),
+                          ),
+                        ),
+                  Padding(
                     padding:
                         const EdgeInsets.only(top: 12.0, left: 22, right: 22),
                     child: Container(
                       height: h * 0.08,
-                      child: TextField(
-                        keyboardType: TextInputType.emailAddress,
-                        controller: phoneEditingController,
+                      child: TextFormField(
+                        controller: passEditingController,
+                        onChanged: (val) {
+                          setState(() {
+                            isEnabled = true;
+                          });
+                        },
                         style: TextStyle(color: Colors.white),
+                        obscureText: true,
                         decoration: InputDecoration(
                             fillColor: Color(0x29FFFFFF),
-                            prefixIcon: Padding(
-                                padding: EdgeInsets.all(15),
-                                child: Text(
-                                  '+66',
-                                  style: TextStyle(color: Colors.white),
-                                )),
                             filled: true,
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(14.0),
@@ -320,98 +431,40 @@ class _MyHomePageState extends State<MyHomePage> {
                               borderSide: BorderSide(
                                   color: Color(0x29FFFFFF), width: 0.0),
                             ),
-                            labelText: 'Phone*',
+                            labelText: 'Password',
                             labelStyle: TextStyle(color: Colors.white)),
-                      ),
-                    ),
-                  )
-                : Padding(
-                    padding:
-                        const EdgeInsets.only(top: 12.0, left: 22, right: 22),
-                    child: Container(
-                      height: h * 0.08,
-                      child: TextField(
-                        keyboardType: TextInputType.emailAddress,
-                        controller: emailEditingController,
-                        style: TextStyle(color: Colors.white),
-                        decoration: InputDecoration(
-                            fillColor: Color(0x29FFFFFF),
-                            filled: true,
-                            border: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(14.0),
-                                borderSide:
-                                    new BorderSide(color: Color(0x29FFFFFF))),
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(14),
-                              borderSide: BorderSide(
-                                  color: Color(0x29FFFFFF), width: 0.0),
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(14),
-                              borderSide: BorderSide(
-                                  color: Color(0x29FFFFFF), width: 0.0),
-                            ),
-                            labelText: 'Email*',
-                            labelStyle: TextStyle(color: Colors.white)),
+                        validator: validatePassword,
                       ),
                     ),
                   ),
-
-            Padding(
-              padding: const EdgeInsets.only(top: 12.0, left: 22, right: 22),
-              child: Container(
-                height: h * 0.08,
-                child: TextField(
-                  controller: passEditingController,
-                  onChanged: (val) {
-                    setState(() {
-                      isEnabled = true;
-                    });
-                  },
-                  style: TextStyle(color: Colors.white),
-                  obscureText: true,
-                  decoration: InputDecoration(
-                      fillColor: Color(0x29FFFFFF),
-                      filled: true,
-                      border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(14.0),
-                          borderSide: new BorderSide(color: Color(0x29FFFFFF))),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(14),
-                        borderSide:
-                            BorderSide(color: Color(0x29FFFFFF), width: 0.0),
+                  Theme(
+                    data: ThemeData(unselectedWidgetColor: Colors.white),
+                    child: CheckboxListTile(
+                      title: Text(
+                        "remember me",
+                        style: TextStyle(color: Colors.white),
                       ),
-                      focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(14),
-                        borderSide:
-                            BorderSide(color: Color(0x29FFFFFF), width: 0.0),
-                      ),
-                      labelText: 'Password',
-                      labelStyle: TextStyle(color: Colors.white)),
-                ),
-              ),
-            ),
-            Theme(
-              data: ThemeData(unselectedWidgetColor: Colors.white),
-              child: CheckboxListTile(
-                title: Text(
-                  "remember me",
-                  style: TextStyle(color: Colors.white),
-                ),
-                value: checkedValue,
-                activeColor: Colors.grey,
-                onChanged: (newValue) {
-                  setState(() {
-                    checkedValue = newValue;
-                  });
-                },
-                controlAffinity:
-                    ListTileControlAffinity.leading, //  <-- leading Checkbox
+                      value: checkedValue,
+                      activeColor: Colors.grey,
+                      onChanged: (newValue) {
+                        setState(() {
+                          checkedValue = newValue;
+                        });
+                      },
+                      controlAffinity: ListTileControlAffinity
+                          .leading, //  <-- leading Checkbox
+                    ),
+                  ),
+                ],
               ),
             ),
             GestureDetector(
               onTap: () {
-                login();
+                if (_formKey.currentState.validate()) {
+                  login();
+                  print('its work');
+                }
+
                 // Navigator.push()
                 // Navigator.push(
                 //   context,
@@ -468,13 +521,21 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.white,
                       fontSize: 16),
                 ),
-                Text(
-                  ' forgot password',
-                  style: TextStyle(
-                    fontWeight: FontWeight.w400,
-                    color: Color(0xff6EC350),
-                    fontSize: 16,
-                    decoration: TextDecoration.underline,
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ForgotPassward()),
+                    );
+                  },
+                  child: Text(
+                    ' forgot password',
+                    style: TextStyle(
+                      fontWeight: FontWeight.w400,
+                      color: Color(0xff6EC350),
+                      fontSize: 16,
+                      decoration: TextDecoration.underline,
+                    ),
                   ),
                 )
               ],
